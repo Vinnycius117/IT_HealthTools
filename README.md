@@ -5,7 +5,7 @@
 
 ### Descrição
 
-O **IT HEALTH TOOLS** é um painel de controlo de linha de comando, criado em PowerShell, para simplificar e automatizar tarefas de manutenção e diagnóstico em sistemas Windows. Projetado para ser uma solução centralizada, ele consolida comandos complexos numa interface de menu simples e interativa, ideal tanto para utilizadores iniciantes quanto para técnicos de suporte.
+O **IT HEALTH TOOLS** é um painel de controle de linha de comando, criado em PowerShell, para simplificar e automatizar tarefas de manutenção e diagnóstico em sistemas Windows. Projetado para ser uma solução centralizada, ele consolida comandos complexos numa interface de menu simples e interativa, ideal tanto para utilizadores iniciantes quanto para técnicos de suporte.
 
 ### Funcionalidades
 
