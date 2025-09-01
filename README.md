@@ -38,7 +38,8 @@ A forma recomendada de usar o **IT HEALTH TOOLS** é através do Git. Isso garan
     .\iniciar.bat
     ```
 
-<img width="672" height="106" alt="image" src="https://github.com/user-attachments/assets/14139d78-9296-4e9d-983b-82e4f40ce259" />
+<img width="639" height="87" alt="image" src="https://github.com/user-attachments/assets/6b6f9e71-9ad0-4e8a-99fa-9648d283e533" />
+
 
 
 ### Alternativa: Execução Sem o Git
