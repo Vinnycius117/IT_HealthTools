@@ -20,14 +20,19 @@ O **IT HEALTH TOOLS** é um painel de controle de linha de comando, criado em Po
 
 ### Como Usar
 
-A forma mais prática e segura de usar o **IT HEALTH TOOLS** é através de um ficheiro de execução (`.bat`). Isso permite que você inicie o painel com um duplo clique, sem precisar digitar comandos no terminal.
+A forma recomendada de usar o IT HEALTH TOOLS é através do Git. Isso garante que você tenha a versão mais recente e facilita a obtenção de futuras atualizações.
 
-1.  **Salve o script principal** na sua pasta de projeto com o nome **`painel.ps1`**.
-2.  **Crie um ficheiro de execução** na mesma pasta. Abra o Bloco de Notas, cole o código abaixo e salve-o como **`iniciar.bat`**.
+Pré-requisitos: Certifique-se de ter o Git instalado no seu sistema.
 
-```bat
-@echo off
-rem Este script executa o seu script PowerShell
-set SCRIPT_DIR=%~dp0
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_DIR%painel.ps1"
-pause
+Clone o Repositório: Abra o seu terminal de linha de comando (CMD, PowerShell ou Git Bash), navegue até a pasta onde deseja salvar o projeto e use o seguinte comando:
+
+Bash
+
+git clone https://github.com/Vinnycius117/IT_HealthTools.git
+Execute a Ferramenta: Navegue para a pasta que foi criada (cd IT_HealthTools) e inicie o painel através do ficheiro de execução:
+
+Bash
+
+.\iniciar.bat
+Execução Sem o Git
+Se preferir, também pode baixar os ficheiros diretamente. Baixe o painel.ps1 e o iniciar.bat da página do projeto e coloque-os na mesma pasta. Para executar, basta dar um duplo clique no ficheiro iniciar.bat.
