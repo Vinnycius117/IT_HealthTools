@@ -183,8 +183,19 @@ function Open-StartupTab {
 # Opção 24: Configurar Perfil do Firewall para Público
 function Set-FirewallProfile {
     Write-Host "Configurando o perfil do Firewall para 'Público'..." -ForegroundColor Yellow
-    Set-NetFirewallProfile -Name 'Public' -Enabled:$true | Out-Null
-    Write-Host "Perfil do Firewall configurado para 'Público'." -ForegroundColor Green
+    
+    try {
+        # Tenta executar o comando com o valor de texto 'True'
+        Set-NetFirewallProfile -Name 'Public' -Enabled:'True' -ErrorAction Stop | Out-Null
+        
+        # Se chegar aqui, o comando foi bem-sucedido
+        Write-Host "Perfil do Firewall configurado para 'Público'." -ForegroundColor Green
+
+    } catch {
+        # Se ocorrer um erro, mostra uma mensagem amigável e limpa
+        Write-Host "Erro ao configurar o perfil do Firewall. Verifique se tem privilégios de administrador." -ForegroundColor Red
+        Write-Host "O Firewall pode já estar configurado para este perfil." -ForegroundColor Red
+    }
 }
 
 # Opção 25: Abrir Ferramentas Avançadas
@@ -280,4 +291,5 @@ do {
 
     Read-Host -Prompt "Pressione Enter para continuar..."
 }
+
 while ($true)
