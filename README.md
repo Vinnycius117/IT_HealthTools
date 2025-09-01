@@ -14,6 +14,9 @@ O **IT HEALTH TOOLS** é um painel de controle de linha de comando, criado em Po
 - **Utilitários de Acesso Rápido:** Oferece acesso instantâneo a ferramentas essenciais do Windows, como o Gerenciador de Tarefas, o Editor de Registro e o Prompt de Comando.
 - **Rede e Conectividade:** Limpa o cache de DNS e exibe informações de rede, como endereços IP locais e públicos.
 
+<img width="864" height="739" alt="image" src="https://github.com/user-attachments/assets/777a6a0a-9142-4840-b180-8ad3b4b33f28" />
+
+
 ### Como Usar
 
 A forma mais prática e segura de usar o **IT HEALTH TOOLS** é através de um ficheiro de execução (`.bat`). Isso permite que você inicie o painel com um duplo clique, sem precisar digitar comandos no terminal.
