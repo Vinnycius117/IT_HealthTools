@@ -10,7 +10,7 @@ net session >nul 2>&1
 if %errorlevel% neq 0 (
     echo ====================================================
     echo  Este script precisa ser executado como ADMINISTRADOR
-    echo  Clique com o botão direito no arquivo e escolha:
+    echo  Clique com o botao direito no arquivo e escolha:
     echo  "Executar como administrador"
     echo ====================================================
     pause
@@ -33,3 +33,4 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_DIR%painel.ps1"
 echo.
 echo Script finalizado. Pressione qualquer tecla para sair.
 pause >nul
+
