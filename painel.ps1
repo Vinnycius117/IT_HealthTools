@@ -241,8 +241,8 @@ $labels = @(
     "Sair",
     "Abrir Gerenciador de Tarefas (Inicializar)",
     "Configurar Firewall para Público",
-    "Abrir Ferramentas Administrativas"
-    "Abrir Arquivos Temporáios"
+    "Abrir Ferramentas Administrativas",
+    "Abrir Arquivos Temporários"
 )
 
 do {
@@ -293,3 +293,4 @@ do {
 }
 
 while ($true)
+
