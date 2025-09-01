@@ -207,9 +207,9 @@ function Open-AdvancedTools {
 # Opção 26: Abrir Arquivos Temporários
 
 function Open-TempFiles {
-    Write-Host "Abrindo ficheiros temporários..." -ForegroundColor Yellow
+    Write-Host "Abrindo arquivos temporários..." -ForegroundColor Yellow
     Start-Process $env:temp
-    Write-Host "Pasta de Ficheiros temporários aberta." -ForegroundColor Green
+    Write-Host "Pasta de arquivos temporários aberta." -ForegroundColor Green
 }
 
 # ————————————————————————————————
@@ -293,4 +293,5 @@ do {
 }
 
 while ($true)
+
 
